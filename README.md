@@ -1,2 +1,2 @@
-# Suda_CharityList_Crawler
-Selenium Crawler
+# 苏大战疫募捐
+- 网站本身名单显示不全，爬取下来分析。
