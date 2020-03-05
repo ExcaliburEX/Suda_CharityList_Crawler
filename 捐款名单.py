@@ -26,7 +26,7 @@ def save(soup,cnt):
         try:
             name = str(tr.text).split('抗击新冠肺炎专项基金')[0]
             money = str(tr.text).split('抗击新冠肺炎专项基金')[1].split('元')[0]
-            date = str(tr.text).split('元')[1]
+            date = str(tr.text).split('抗击新冠肺炎专项基金')[1].split('元')[1]
             mes = ' '
             if date[0] == '2':
                 mes = ' '
